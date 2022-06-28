@@ -1,0 +1,89 @@
+INSERT INTO nacionalidades VALUES (1,'Chile');
+INSERT INTO nacionalidades VALUES (2,'Argentina');
+INSERT INTO nacionalidades VALUES (3,'Peru');
+INSERT INTO nacionalidades VALUES (4,'Bolivia');
+INSERT INTO nacionalidades VALUES (5,'España');
+INSERT INTO nacionalidades VALUES (6,'Uruguay');
+INSERT INTO nacionalidades VALUES (7,'Paraguay');
+INSERT INTO nacionalidades VALUES (8,'Antártida');
+INSERT INTO nacionalidades VALUES (9,'Antigua y Barbuda');
+INSERT INTO nacionalidades VALUES (10,'Antillas Holandesas');
+INSERT INTO nacionalidades VALUES (11,'Arabia Saudí');
+INSERT INTO nacionalidades VALUES (12,'Argelia');
+INSERT INTO nacionalidades VALUES (13,'Filipinas');
+INSERT INTO nacionalidades VALUES (14,'Armenia');
+INSERT INTO nacionalidades VALUES (15,'Aruba');
+INSERT INTO nacionalidades VALUES (16,'Australia');
+INSERT INTO nacionalidades VALUES (17,'Austria');
+INSERT INTO nacionalidades VALUES (18,'Azerbaiyán');
+INSERT INTO nacionalidades VALUES (19,'Bahamas');
+INSERT INTO nacionalidades VALUES (20,'Bahréin');
+INSERT INTO nacionalidades VALUES (21,'Bangladesh');
+INSERT INTO nacionalidades VALUES (22,'Barbados');
+INSERT INTO nacionalidades VALUES (23,'Bielorrusia');
+INSERT INTO nacionalidades VALUES (24,'Bélgica');
+INSERT INTO nacionalidades VALUES (25,'Belice');
+INSERT INTO nacionalidades VALUES (26,'Benin');
+INSERT INTO nacionalidades VALUES (27,'Bermudas');
+INSERT INTO nacionalidades VALUES (28,'Bhután');
+INSERT INTO nacionalidades VALUES (30,'Bosnia y Herzegovina');
+------------------------------------------------------------------Insertar ragiones
+INSERT INTO regiones VALUES (1,'Arica y Parinacota');
+INSERT INTO regiones VALUES (2,'Tarapaca');
+INSERT INTO regiones VALUES (3,'Antofagasta');
+INSERT INTO regiones VALUES (4,'Atacama');
+INSERT INTO regiones VALUES (15,'Coquimbo');
+INSERT INTO regiones VALUES (5,'Valparaiso');
+INSERT INTO regiones VALUES (6,'Metropolitana');
+INSERT INTO regiones VALUES (7,'OHiggins');
+INSERT INTO regiones VALUES (8,'Maule');
+INSERT INTO regiones VALUES (9,'Biobio');
+INSERT INTO regiones VALUES (10,'Araucania');
+INSERT INTO regiones VALUES (11,'Los Rios');
+INSERT INTO regiones VALUES (12,'Los Lagos');
+INSERT INTO regiones VALUES (13,'Aysen');
+INSERT INTO regiones VALUES (14,'Magallanes');
+-------------------------------------------------------insert de provincias
+INSERT INTO provincias VALUES (1,'Tarapaca',1);
+INSERT INTO provincias VALUES (2,'Antofagasta',3);
+INSERT INTO provincias VALUES (3,'Atacama',4);
+INSERT INTO provincias VALUES (4,'Coquimbo',15);
+INSERT INTO provincias VALUES (5,'Valparaiso',5);
+INSERT INTO provincias VALUES (6,'Santiago',6);
+INSERT INTO provincias VALUES (7,'Colchagua',7);
+INSERT INTO provincias VALUES (8,'Talca',8);
+INSERT INTO provincias VALUES (9,'Concepcion',9);
+INSERT INTO provincias VALUES (10,'Valdivia',11);
+INSERT INTO provincias VALUES (11,'Osorno',12);
+INSERT INTO provincias VALUES (12,'Aysen',13);
+------------------------------------------------------insert comunas
+INSERT INTO comunas VALUES (1,'Puente alto',6);
+INSERT INTO comunas VALUES (2,'Quinta normal',6);
+INSERT INTO comunas VALUES (3,'La florida',6);
+INSERT INTO comunas VALUES(4,'Tejas verdes',5);
+INSERT INTO comunas VALUES (5,'Caldera',3);
+-----------------------------------------------------insert tipo de genero
+INSERT INTO tipos_de_genero VALUES (1,'Maculino');
+INSERT INTO tipos_de_genero VALUES (2,'Femenino');
+INSERT INTO tipos_de_genero VALUES (3,'Otro');
+-----------------------------------------------------insert afiliados
+INSERT INTO afiliados VALUES (1,20811954,'0','','Willians','','briones','','19/07/01',200000,'Pino 2757','12365468435138151326813535','wbriones2013@gmail.com',1,1,1
+);
+INSERT INTO afiliados VALUES (2,20666589,'6','','Franco','Antonio','Vergara','Gutierrez','01/09/01',1200000,'castaño 002','3151321351213','Franco.@gmail.com',3,1,1
+);
+INSERT INTO afiliados VALUES (3,23439815,'6','','Luis','','Samper','','09/03/05',300000,'Eucalipto 230','3151321351213','Luis.s@gmail.com',2,1,3
+);
+INSERT INTO afiliados VALUES (4,22150875,'7','','Maria','Gloria','Rodriguez','','18/07/03',500000,'Olivo 1980','3151321351213','Glorias@gmail.com',4,1,2
+);
+INSERT INTO afiliados VALUES (5,'','','D513CVZ152C5','José ','Luis','Quispe','Sánchez','28/08/80',200000,'aliso 4348','3151321351213','Faraon@gmail.com',5,3,3
+);
+----------------------------------------------------insert discapacidades
+INSERT INTO discapacidades VALUES (1,'SENSORIALES Y DE LA COMUNICACIÓN');
+INSERT INTO discapacidades VALUES (2,'MOTRICES');
+INSERT INTO discapacidades VALUES (3,'MENTALES');
+------------------------------------------------------insert discapacidades_por_afiliados
+INSERT INTO afiliado_x_discapacidad VALUES (5,2);
+INSERT INTO afiliado_x_discapacidad VALUES (5,3);
+INSERT INTO afiliado_x_discapacidad VALUES (4,1);
+INSERT INTO afiliado_x_discapacidad VALUES (3,3);
+INSERT INTO afiliado_x_discapacidad VALUES (3,2);
